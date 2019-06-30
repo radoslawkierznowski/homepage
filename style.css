@@ -1,0 +1,22 @@
+body {
+	background: #fefefe;
+}
+
+.mainHeader {
+	color: tomato;
+}
+
+.sectionHeader {
+	color: #1460aa;
+}
+
+.diaryHeader {
+	color: #6c1285;
+}
+
+p {
+	color: darkblue;
+}
+.postHeader{
+	color: goldenrod;
+}
