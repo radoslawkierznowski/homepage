@@ -5,6 +5,7 @@ body {
 
 .mainHeader {
 	color: #00487c;
+	margin-bottom: 48px;
 }
 
 .sectionHeader, .diaryHeader {
@@ -26,3 +27,14 @@ p {
 .thirdHeader {
 	color: #0496ff;
 }
+
+.about {
+	
+}
+
+.paragraph {
+	padding: 16px;
+}
+.main{width: 100%;
+	max-width: 700px;
+	margin: 32px auto;}
