@@ -3,35 +3,43 @@ body {
 	color: #333;
 }
 
-.mainHeader {
-	color: #00487c;
-	margin-bottom: 48px;
-}
+.about {}
 
-.sectionHeader, .diaryHeader {
+.about__header {
 	color: #1460aa;
 }
 
-p {
+.about__paragraph {
+	padding: 16px;
 	color: darkblue;
 }
 
-.postHeader {
-	color: goldenrod;
-}
-
-.link {
+.about_link {
 	color: #1a936f;
 }
 
-.thirdHeader {
+.diary__header {
+	color: #1460aa;
+}
+
+.diary__link {
+	color: #1a936f;
+}
+
+.diary__paragraph {
+	padding: 16px;
+	color: darkblue;
+}
+
+.diary__post-title {
 	color: #0496ff;
 }
 
-.about {}
+.header {}
 
-.paragraph {
-	padding: 16px;
+.heading {
+	color: #00487c;
+	margin-bottom: 48px;
 }
 
 .main {
@@ -41,38 +49,6 @@ p {
 	padding-top: 50px;
 }
 
-.box, .boxTest {
-	width: 100px;
-	height: 100px;
-	background: yellowgreen;
-	padding: 10px;
-	box-sizing: border-box;
-	border: 10px solid red;
-	box-sizing: border-box;
-	position: absolute;
-	top: 10px;
-	right: 50%;
-}
-
-.box {
-	z-index: 2;
-	position: sticky;
-}
-
-.boxTest {
-	top: 30px;
-	right: 55%;
-	background: blueviolet;
-}
-
-.top {
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	color: #1a936f;
-	text-decoration: none;
-}
-
 .navigation {
 	position: fixed;
 	width: 100%;
@@ -80,4 +56,14 @@ p {
 	left: 0;
 	box-sizing: border-box;
 	padding: 16px;
+}
+
+.navigation__link {}
+
+.top {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	color: #1a936f;
+	text-decoration: none;
 }
