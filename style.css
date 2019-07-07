@@ -10,11 +10,11 @@ body {
 }
 
 .about__paragraph {
-	padding: 16px;
 	color: darkblue;
+	padding: 16px;
 }
 
-.about_link {
+.about__link {
 	color: #1a936f;
 }
 
@@ -27,8 +27,8 @@ body {
 }
 
 .diary__paragraph {
-	padding: 16px;
 	color: darkblue;
+	padding: 16px;
 }
 
 .diary__post-title {
@@ -42,28 +42,48 @@ body {
 	margin-bottom: 48px;
 }
 
+.hobby {}
+
+.hobby__element {}
+
+.hobby__header {
+	color: #1460aa;
+}
+
+.hobby__list {list-style: none;}
+
+
 .main {
-	width: 100%;
-	max-width: 700px;
 	margin: 32px auto;
+	max-width: 700px;
 	padding-top: 50px;
+	width: 100%;
 }
 
 .navigation {
-	position: fixed;
-	width: 100%;
-	top: 10px;
-	left: 0;
 	box-sizing: border-box;
+	left: 0;
 	padding: 16px;
+	position: fixed;
+	top: 10px;
+	width: 100%;
 }
 
 .navigation__link {}
+.plan {}
+
+.plan__element {}
+
+.plan__header {
+	color: #1460aa;
+}
+
+.plan__list {}
 
 .top {
-	position: fixed;
 	bottom: 10px;
-	right: 10px;
 	color: #1a936f;
+	position: fixed;
+	right: 10px;
 	text-decoration: none;
 }
