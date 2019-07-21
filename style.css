@@ -9,13 +9,13 @@ body {
 	color: #1460aa;
 }
 
+.about__link {
+	color: #1a936f;
+}
+
 .about__paragraph {
 	color: darkblue;
 	padding: 16px;
-}
-
-.about__link {
-	color: #1a936f;
 }
 
 .diary__header {
@@ -35,6 +35,8 @@ body {
 	color: #0496ff;
 }
 
+.diary_link {}
+
 .header {}
 
 .heading {
@@ -44,14 +46,15 @@ body {
 
 .hobby {}
 
-.hobby__element {}
-
 .hobby__header {
 	color: #1460aa;
 }
 
-.hobby__list {list-style: none;}
+.hobby__item {}
 
+.hobby__list {
+	list-style: none;
+}
 
 .main {
 	margin: 32px auto;
@@ -60,7 +63,26 @@ body {
 	width: 100%;
 }
 
-.navigation {
+.navigation {}
+
+.navigation__item {display: inline;}
+
+.navigation__link {color: #1a936f;}
+
+.navigation__list {list-style: none;
+padding: 0;}
+
+.plan {}
+
+.plan__header {
+	color: #1460aa;
+}
+
+.plan__item {}
+
+.plan__list {}
+
+.site-header {
 	box-sizing: border-box;
 	left: 0;
 	padding: 16px;
@@ -68,17 +90,6 @@ body {
 	top: 10px;
 	width: 100%;
 }
-
-.navigation__link {}
-.plan {}
-
-.plan__element {}
-
-.plan__header {
-	color: #1460aa;
-}
-
-.plan__list {}
 
 .top {
 	bottom: 10px;
