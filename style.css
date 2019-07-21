@@ -37,6 +37,16 @@ body {
 
 .diary_link {}
 
+.glossary {}
+
+.glossary__header {}
+
+.glossary__list {}
+
+.glossary__list-description {}
+
+.glossary__list-title {}
+
 .header {}
 
 .heading {
@@ -65,12 +75,18 @@ body {
 
 .navigation {}
 
-.navigation__item {display: inline;}
+.navigation__item {
+	display: inline;
+}
 
-.navigation__link {color: #1a936f;}
+.navigation__link {
+	color: #1a936f;
+}
 
-.navigation__list {list-style: none;
-padding: 0;}
+.navigation__list {
+	list-style: none;
+	padding: 0;
+}
 
 .plan {}
 
