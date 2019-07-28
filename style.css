@@ -18,6 +18,14 @@ body {
 	padding: 16px;
 }
 
+.data {}
+
+.data__caption {}
+
+.data__header {}
+
+.data__table {}
+
 .diary__header {
 	color: #1460aa;
 }
