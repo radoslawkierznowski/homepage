@@ -20,11 +20,7 @@ body {
 
 .data {}
 
-.data__caption {}
-
 .data__header {}
-
-.data__table {}
 
 .diary__header {
 	color: #1460aa;
@@ -118,6 +114,18 @@ body {
 .table {
 	width: 100%;
 }
+
+.table__body {}
+
+.table__caption {}
+
+.table__cell {}
+
+.table__head {}
+
+.table__header {}
+
+.table__row {}
 
 .top {
 	bottom: 10px;
