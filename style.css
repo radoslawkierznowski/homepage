@@ -8,7 +8,7 @@ html {
 
 body {
 	background-color: #08AEEA;
-background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+	background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 	color: #333;
 }
 
@@ -86,15 +86,11 @@ background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 	width: 100%;
 }
 
-.navigation {
-	background-color: #08AEEA;
-background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
-	display: flex;
-	justify-content: center;
-}
+.navigation {}
 
 .navigation__item {
-	display: inline;
+	display: block;
+	margin: 0 16px;
 }
 
 .navigation__link {
@@ -102,6 +98,9 @@ background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 }
 
 .navigation__list {
+	align-items: center;
+	display: flex;
+	justify-content: center;
 	list-style: none;
 	padding: 0;
 }
