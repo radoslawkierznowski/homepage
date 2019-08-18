@@ -85,7 +85,10 @@ body {
 	width: 100%;
 }
 
-.navigation {}
+.navigation {
+	display: flex;
+	justify-content: center;
+}
 
 .navigation__item {
 	display: inline;
@@ -111,11 +114,12 @@ body {
 .plan__list {}
 
 .site-header {
+	background: #fff;
 	box-sizing: border-box;
 	left: 0;
 	padding: 16px;
 	position: fixed;
-	top: 10px;
+	top: 0px;
 	width: 100%;
 }
 
