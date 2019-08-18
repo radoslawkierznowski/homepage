@@ -1,4 +1,4 @@
-console.log('siema');
+/* console.log('siema');
 const name = 'Radosław Kierznowski';
 const age = 25;
 
@@ -48,4 +48,10 @@ const calculateFat = (x) => {
     return x * 7;
 }
 
-console.log(calculateFat(2));
+console.log(calculateFat(2)); */
+
+const welcome = (name, age) => {
+    console.log(`Witaj ${name}, masz ${age} lat!`);
+}
+
+console.log("Wywołaj funkcję welcome z parametrami name i age");
