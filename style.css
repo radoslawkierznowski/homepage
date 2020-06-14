@@ -148,3 +148,9 @@ body {
 	right: 10px;
 	text-decoration: none;
 }
+
+@media print{
+	body{
+		background:yellow;
+	}
+}
